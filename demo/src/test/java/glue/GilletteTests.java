@@ -41,63 +41,63 @@ public class GilletteTests {
         driver.manage().window().maximize();
     }
 
-    @Given("I am on the Gillette website")
-    public void iAmOnTheGilletteWebsite() {
-        driver.get("https://www.gillette.co.in/en-in");
-    }
+    // @Given("I am on the Gillette website")
+    // public void iAmOnTheGilletteWebsite() {
+    //     driver.get("https://www.gillette.co.in/en-in");
+    // }
     
-    @When("^I hover on from the top navigation$")
-    public void iHoverOnFromTheTopNavigation() throws MalformedURLException {
-        ExtentTest test = reporter.createTest("hover Products", "Executing step 1");
-        homePage.hoverToProducts(driver, test);
-        log.info("Hovered");
-    }
+    // @When("^I hover on from the top navigation$")
+    // public void iHoverOnFromTheTopNavigation() throws MalformedURLException {
+    //     ExtentTest test = reporter.createTest("hover Products", "Executing step 1");
+    //     homePage.hoverToProducts(driver, test);
+    //     log.info("Hovered");
+    // }
 
-    @When("^I choose \"([^\"]*)\" under \"([^\"]*)\" from the drop-down$")
-    public void iChooseUnderFromTheDropDown(String option, String dropdown) {
-        ExtentTest test = reporter.createTest("click Brands", "Executing step 2");
-        homePage.clickBrands(driver, test);
-        log.info("Clicked MACH3");
-    }
+    // @When("^I choose \"([^\"]*)\" under \"([^\"]*)\" from the drop-down$")
+    // public void iChooseUnderFromTheDropDown(String option, String dropdown) {
+    //     ExtentTest test = reporter.createTest("click Brands", "Executing step 2");
+    //     homePage.clickBrands(driver, test);
+    //     log.info("Clicked MACH3");
+    // }
 
     
-    @Then("^I should see \"([^\"]*)\" under the products list$")
-    public void iShouldSeeUnderTheProductsList(String expectedText) {
-        ExtentTest test = reporter.createTest("find Razor Turbo", "Executing step 3");
-        homePage.findRazorTurbo(driver, test);
-        log.info("Finding razor turbo");
+    // @Then("^I should see \"([^\"]*)\" under the products list$")
+    // public void iShouldSeeUnderTheProductsList(String expectedText) {
+    //     ExtentTest test = reporter.createTest("find Razor Turbo", "Executing step 3");
+    //     homePage.findRazorTurbo(driver, test);
+    //     log.info("Finding razor turbo");
         
-    }
+    // }
 
-    @When("^I search for \"([^\"]*)\" using the search option$")
-    public void iSearchForUsingTheSearchOption(String searchText) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        WebElement searchIcon = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"searchIcon\"]")));
-        searchIcon.click();
-        WebElement searchInput = driver.findElement(By.xpath("//*[@id=\"search-box-input\"]"));
-        searchInput.sendKeys(searchText);
-        searchInput.submit();
-        log.info("Searched for " + searchText);
-    }
+    // @When("^I search for \"([^\"]*)\" using the search option$")
+    // public void iSearchForUsingTheSearchOption(String searchText) {
+    //     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+    //     WebElement searchIcon = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"searchIcon\"]")));
+    //     searchIcon.click();
+    //     WebElement searchInput = driver.findElement(By.xpath("//*[@id=\"search-box-input\"]"));
+    //     searchInput.sendKeys(searchText);
+    //     searchInput.submit();
+    //     log.info("Searched for " + searchText);
+    // }
 
-    @Then("^I should see \"([^\"]*)\" at the top of the search results$")
-    public void iShouldSeeAtTheTopOfTheSearchResults(String expectedText) {
-        WebElement searchResults = driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/h1"));
-        String searchResultsText = searchResults.getText();
-        log.info("Got the first result");
-    }
+    // @Then("^I should see \"([^\"]*)\" at the top of the search results$")
+    // public void iShouldSeeAtTheTopOfTheSearchResults(String expectedText) {
+    //     WebElement searchResults = driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/h1"));
+    //     String searchResultsText = searchResults.getText();
+    //     log.info("Got the first result");
+    // }
 
-    @When("^I click on \"([^\"]*)\" under \"([^\"]*)\" in the footer$")
-    public void iClickOnUnderInTheFooter(String link, String section) {
-        WebElement sectionElement = driver.findElement(By.xpath("//*[@id=\"footerContent\"]/div/div[1]/div[1]/ul/li[2]/a"));
-        sectionElement.click();
-    }
+    // @When("^I click on \"([^\"]*)\" under \"([^\"]*)\" in the footer$")
+    // public void iClickOnUnderInTheFooter(String link, String section) {
+    //     WebElement sectionElement = driver.findElement(By.xpath("//*[@id=\"footerContent\"]/div/div[1]/div[1]/ul/li[2]/a"));
+    //     sectionElement.click();
+    // }
 
-    @Then("^I should see \"([^\"]*)\" under the list of articles under styling$")
-    public void iShouldSeeUnderTheListOfArticlesUnderStyling(String expectedText) {
-        WebElement articlesList = driver.findElement(By.xpath("//*[@id=\"tabItem_1\"]"));
-        String articlesListText = articlesList.getText();
-    }
+    // @Then("^I should see \"([^\"]*)\" under the list of articles under styling$")
+    // public void iShouldSeeUnderTheListOfArticlesUnderStyling(String expectedText) {
+    //     WebElement articlesList = driver.findElement(By.xpath("//*[@id=\"tabItem_1\"]"));
+    //     String articlesListText = articlesList.getText();
+    // }
 
     @After
     public void tearDown() {

@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-01T10:06:51 UTC" name="Surefire suite" finished-at="2023-09-01T10:07:34 UTC" duration-ms="43286">
+  <suite started-at="2023-09-05T09:46:46 UTC" name="Surefire suite" finished-at="2023-09-05T09:47:17 UTC" duration-ms="31004">
     <groups>
     </groups>
-    <test started-at="2023-09-01T10:06:51 UTC" name="Surefire test" finished-at="2023-09-01T10:07:34 UTC" duration-ms="43286">
+    <test started-at="2023-09-05T09:46:46 UTC" name="Surefire test" finished-at="2023-09-05T09:47:17 UTC" duration-ms="31004">
       <class name="runner.Testcase1">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@11392934]" started-at="2023-09-01T10:06:51 UTC" name="beforeMethod" finished-at="2023-09-01T10:06:56 UTC" duration-ms="5473" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@54c5a2ff]" started-at="2023-09-05T09:46:46 UTC" name="beforeMethod" finished-at="2023-09-05T09:46:52 UTC" duration-ms="5607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Tc001()[pri:1, instance:runner.Testcase1@11392934]" started-at="2023-09-01T10:06:56 UTC" name="Tc001" finished-at="2023-09-01T10:07:17 UTC" duration-ms="20630" status="PASS">
+        <test-method signature="Tc001()[pri:1, instance:runner.Testcase1@54c5a2ff]" started-at="2023-09-05T09:46:52 UTC" name="Tc001" finished-at="2023-09-05T09:47:01 UTC" duration-ms="9300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tc001 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@11392934]" started-at="2023-09-01T10:07:17 UTC" name="afterMethod" finished-at="2023-09-01T10:07:18 UTC" duration-ms="748" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@54c5a2ff]" started-at="2023-09-05T09:47:01 UTC" name="afterMethod" finished-at="2023-09-05T09:47:02 UTC" duration-ms="527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@11392934]" started-at="2023-09-01T10:07:19 UTC" name="beforeMethod" finished-at="2023-09-01T10:07:22 UTC" duration-ms="3641" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@54c5a2ff]" started-at="2023-09-05T09:47:02 UTC" name="beforeMethod" finished-at="2023-09-05T09:47:05 UTC" duration-ms="3304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Tc002(java.lang.String,java.lang.String)[pri:2, instance:runner.Testcase1@11392934]" started-at="2023-09-01T10:07:22 UTC" name="Tc002" data-provider="testData" finished-at="2023-09-01T10:07:26 UTC" duration-ms="3632" status="PASS">
+        <test-method signature="Tc002(java.lang.String,java.lang.String)[pri:2, instance:runner.Testcase1@54c5a2ff]" started-at="2023-09-05T09:47:05 UTC" name="Tc002" data-provider="testData" finished-at="2023-09-05T09:47:09 UTC" duration-ms="3318" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,15 +39,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tc002 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@11392934]" started-at="2023-09-01T10:07:26 UTC" name="afterMethod" finished-at="2023-09-01T10:07:26 UTC" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@54c5a2ff]" started-at="2023-09-05T09:47:09 UTC" name="afterMethod" finished-at="2023-09-05T09:47:09 UTC" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@11392934]" started-at="2023-09-01T10:07:26 UTC" name="beforeMethod" finished-at="2023-09-01T10:07:30 UTC" duration-ms="4074" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@54c5a2ff]" started-at="2023-09-05T09:47:09 UTC" name="beforeMethod" finished-at="2023-09-05T09:47:13 UTC" duration-ms="4017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Tc003()[pri:3, instance:runner.Testcase1@11392934]" started-at="2023-09-01T10:07:30 UTC" name="Tc003" finished-at="2023-09-01T10:07:34 UTC" duration-ms="3720" status="FAIL">
+        <test-method signature="Tc003()[pri:3, instance:runner.Testcase1@54c5a2ff]" started-at="2023-09-05T09:47:13 UTC" name="Tc003" finished-at="2023-09-05T09:47:17 UTC" duration-ms="4030" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Page URL doesn't contain both 'Bangalore' and 'Coimbatore' keywords expected [true] but found [false]]]>
@@ -57,7 +57,7 @@
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertTrue(Assert.java:57)
-at runner.Testcase1.Tc003(Testcase1.java:174)
+at runner.Testcase1.Tc003(Testcase1.java:172)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -97,7 +97,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tc003 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@11392934]" started-at="2023-09-01T10:07:34 UTC" name="afterMethod" finished-at="2023-09-01T10:07:34 UTC" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@54c5a2ff]" started-at="2023-09-05T09:47:17 UTC" name="afterMethod" finished-at="2023-09-05T09:47:17 UTC" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

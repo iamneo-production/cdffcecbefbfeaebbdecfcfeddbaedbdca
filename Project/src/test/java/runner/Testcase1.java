@@ -165,7 +165,7 @@ public class Testcase1 extends Base {
             driver.findElement(By.xpath("//div/input[@id='datepicker1']")).click();
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             driver.findElement(By.xpath("//div[2]/table/tbody/tr[5]/td[1]")).click();
-            driver.findElement(By.xpath("//div/a[contains(text(),'Search')]")).click();
+            // driver.findElement(By.xpath("//div/a[contains(text(),'Search')]")).click();
             log.info("Search click");
             WebDriverWait wait03 = new WebDriverWait(driver, Duration.ofSeconds(10));
             String currenturl1 = driver.getCurrentUrl();

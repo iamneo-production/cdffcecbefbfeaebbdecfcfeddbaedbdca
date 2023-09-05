@@ -1,0 +1,10 @@
+Sep 05, 2023 9:55:05 AM runner.Testcase1 Tc001
+INFO: Browser launched
+Sep 05, 2023 9:55:06 AM runner.Testcase1 Tc001
+INFO: Redirected to Train booking page
+Sep 05, 2023 9:55:12 AM runner.Testcase1 Tc001
+INFO: Navigated back to homepage
+Sep 05, 2023 9:55:12 AM runner.Testcase1 Tc001
+INFO: Page asserted for having the keyword Login/Signup with OTP 
+Sep 05, 2023 9:55:13 AM runner.Testcase1 afterMethod
+INFO: Browser closed

@@ -7,7 +7,7 @@ public class Client {
      public static void main(String[] args) {
         try {
             // Connect to the server running on localhost at port 12345
-            Socket serverSocket = new Socket("localhost", 12345);
+            Socket serverSocket = new Socket("localhost", 8080);
             System.out.println("Connected to the server!");
 
             // Close the connection (we're only demonstrating connectivity)

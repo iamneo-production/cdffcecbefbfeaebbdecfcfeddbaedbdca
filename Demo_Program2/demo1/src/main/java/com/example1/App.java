@@ -26,7 +26,7 @@ public class App
                 System.out.println("Failed to connect");
             }
         } catch(Exception e) {
-
+            
         }
     }
 }

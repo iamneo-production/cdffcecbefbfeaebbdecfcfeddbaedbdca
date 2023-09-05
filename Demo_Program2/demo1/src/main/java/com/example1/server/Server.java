@@ -2,6 +2,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class Server {
+    public String connection = "Mysql";
     public Connection getconnection() {
         try {
 

@@ -1,3 +1,4 @@
+package main.java.com.example1.client;
 
 import com.example1.server.Server;
 
